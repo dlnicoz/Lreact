@@ -1,0 +1,86 @@
+/*.App {*/
+  /*text-align: center;*/
+/*}*/
+
+/*.App-logo {*/
+  /*height: 40vmin;*/
+  /*pointer-events: none;*/
+/*}*/
+
+/*@media (prefers-reduced-motion: no-preference) {*/
+  /*.App-logo {*/
+    /*animation: App-logo-spin infinite 20s linear;*/
+  /*}*/
+/*}*/
+
+/*.App-header {*/
+  /*background-color: #282c34;*/
+  /*min-height: 100vh;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*font-size: calc(10px + 2vmin);*/
+  /*color: white;*/
+/*}*/
+
+/*.App-link {*/
+  /*color: #61dafb;*/
+/*}*/
+
+/*@keyframes App-logo-spin {*/
+  /*from {*/
+    /*transform: rotate(0deg);*/
+  /*}*/
+  /*to {*/
+    /*transform: rotate(360deg);*/
+  /*}*/
+/*}*/
+
+/*button {*/
+  /*font-size: calc(10px + 2vmin);*/
+/*}*/
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+*{
+  margin:0 ;
+  padding:0;
+  box-sizing: border-box;
+}
+.mainBody{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  text-transform: capitalize;
+  padding:20px 0 ;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*color:black;*/
+  background-color: #A0E7E5;
+}
+.slotBody{
+  display: flex;
+  width: 35%;
+  margin-left: 33%;
+
+  background-color: white;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-top: 5em;
+border: 3px solid #189AB4;
+
+
+}
+.emo1{
+  letter-spacing: 15px;
+}
+.emo ,.emo1{
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
