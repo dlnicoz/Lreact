@@ -8,20 +8,20 @@ function App() {
     const timer = setInterval(() => {
       let mytime = new Date().toLocaleTimeString();
       setCount(mytime);
-    }, 4000);
+    }, 1000);
     return () => clearInterval(timer);
   });
   return (
     <div className="App">
       <header className="App-header">
         <p>{mystime}</p>
-        <p>
-          <button type="button" onClick={useEffect}>
-            Refresh time
-          </button>
-        </p>
+        <p></p>
       </header>
     </div>
   );
 }
 export default App;
+
+//<button type="button" onClick={useEffect}>
+//Refresh time
+//</button>
