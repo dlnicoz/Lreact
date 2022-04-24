@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -14,10 +14,5 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
     "vite": "^2.8.0"
-  },
-  "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "serve": "vite preview --host 0.0.0.0"
   }
 }
